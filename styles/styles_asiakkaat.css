@@ -1,0 +1,38 @@
+#Asiakkaat table, #Asiakkaat th, #Asiakkaat tr, #Asiakkaat td {
+
+	border-collapse: collapse;
+	font-family: Arial;
+	border:1px solid MediumTurquoise;
+	padding:3px;
+	}
+
+	
+#Asiakkaat th {
+
+	background-color: LightBlue;
+	font-size: 1.2em;
+	color: Snow;
+	font-family: Arial;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-collapse: collapse;
+	border:1px solid MediumTurquoise;
+	}
+
+
+table#Asiakkaat tr:nth-child(even) {
+background-color: Ivory;
+}
+table#Asiakkaat tr:nth-child(odd) {
+background-color: AliceBlue;
+}
+
+
+body {background-color:white; text-align:left; font-family:arial; color:black; margin-top:50px; margin-left:50px;}
+h1   {color:DeepPink; text-align:center;}
+h2   {color:Black; text-align:left;}
+h3   {color:DarkOrchid; font-weight: strong; text-align:center;}
+p    {color:black; text-align:left;}
+table {border:1px solid black; border-collapse:collapse;}
+th{text-align:center;}
+th, td {padding: 5px;}

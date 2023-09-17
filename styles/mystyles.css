@@ -1,0 +1,84 @@
+
+body {
+	background-color: LavenderBlush;
+	text-align:center;
+	font-family:arial;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-right:auto;
+	margin-left:auto;
+	
+	}
+h1   {color: DeepPink; text-align:center;}
+h2   {color: MediumVioletRed; text-align:center;}
+h3   {color: DarkOrchid; font-weight: bold; text-align:center; font-size:150%}
+p    {color: purple; text-align:left;}
+li	 {color: HotPink; font-weight:bold; text-align:left;}
+address {color: DarkOrchid; font-weight: bold; text-align:center; font-size:120%}
+a:link {color: RoyalBlue; background-color: transparent; text-decoration: underline; font-weight:bold;}
+a:visited {color: DeepPink; background-color: transparent; text-decoration: none; font-weight:bold;}
+a:hover {color: ForestGreen; background-color: transparent; text-decoration: underline; font-weight:bold;}
+a:active {color: Tomato; background-color: transparent; text-decoration: none; font-weight:bold;}
+
+/*Tämä tyylitunniste kertoo miten h1-elementti muotoillaan*/
+#banner{
+	background-color: MediumVioletRed;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left: auto;
+	margin-right: auto;
+	height:100px;
+	text-align:center;
+	color:LavenderBlush;
+	padding-top: 50px;
+	font-size: 250%;
+	
+}
+/*Vaihtoehtoinen tyyliluokka, jota voidaan kutsua mistä elementistä tahansa.*/
+.uus_vari{
+	
+	background-color: Purple;
+	font-size: 120%;
+	margin-top:0px;
+	margin-bottom:10px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30px;
+	text-align: left;
+	padding-top:10px;
+	padding-left:10px;
+	color: LavenderBlush;
+}
+/*Vaihtoehtoinen luokka, jota voi kutsua mistä tahansa elemnetistä*/
+.uus_vari_vol2{
+	background-color: Purple;
+	font-size: 120%;
+	margin-top:0px;
+	margin-bottom:10px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30px;
+	text-align: center;
+	padding-top:10px;
+	padding-left:10px;
+	color: LavenderBlush;
+	
+}
+/*Luokka jota voi kutsua vain h3-elementistä*/
+h3.uus_vari_vol3{
+	background-color: Purple;
+	font-size: 120%;
+	margin-top:0px;
+	margin-bottom:10px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30px;
+	text-align: Left;
+	padding-top:10px;
+	padding-left:10px;
+	color: LavenderBlush;
+	
+}
+
+
+ 
